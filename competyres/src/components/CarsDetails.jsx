@@ -80,7 +80,7 @@ function CarsDetails(props) {
                     <p>{descripcion}</p>
                     {isLogged && disponible && (
                         <Button
-                            className={CSS.button}
+                            className={CSS.buttonAlquiler}
                             onClick={onClickHandler}
                             variant="success"
                         >

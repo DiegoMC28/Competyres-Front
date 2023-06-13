@@ -58,3 +58,8 @@
     transform: scale(1.5);
     transition: 0.5s ease all;
 }
+
+
+.buttonAlquiler {
+    margin: 5px;
+}

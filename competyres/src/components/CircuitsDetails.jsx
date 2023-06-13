@@ -10,14 +10,8 @@ import flechaAtras from "../resources/flechas-izquierda.png";
 function CircuitsDetailsCard(props) {
     const { circuit, isLogged } = props;
     const navigate = useNavigate();
-    const {
-        nombre,
-        ubicacion,
-        extension,
-        descripcion,
-        imagen,
-        disponible,
-    } = circuit;
+    const { nombre, ubicacion, extension, descripcion, imagen, disponible } =
+        circuit;
 
     const [open, setOpen] = useState(false);
 
@@ -68,7 +62,7 @@ function CircuitsDetailsCard(props) {
                     <p>{descripcion}</p>
                     {isLogged && disponible && (
                         <Button
-                            className={CSS.button}
+                            className={CSS.buttonAlquiler}
                             onClick={onClickHandler}
                             variant="success"
                         >
