@@ -46,6 +46,7 @@ function CarsDetails(props) {
                 src={flechaAtras}
                 onClick={onBackClickHandler}
                 className={CSS.button}
+                alt="Flecha atras"
             />
             <div className={CSS.body}>
                 <img

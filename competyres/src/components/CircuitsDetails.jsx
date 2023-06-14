@@ -36,6 +36,7 @@ function CircuitsDetailsCard(props) {
         <div>
             <img
                 src={flechaAtras}
+                alt="Flecha para atras"
                 onClick={onBackClickHandler}
                 className={CSS.button}
             />
